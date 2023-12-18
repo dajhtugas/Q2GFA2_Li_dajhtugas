@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    width: 100vw;
+    height: 100vw;
+    display: block;
+}
+
+#vidbg{ 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1; 
+}
+
+article{
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    text-align: center;
+}
+
+.planet{
+    display: inline-block;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+#galaxy{
+    background:url(../media/images/galaxy.gif);
+    width: 200px;
+    height: 200px;
+    transform: translate(50vw, 50vh);
+    transition: 100s;
+}
+
+#parangearth{
+    background:url(../media/images/parangearth.gif);
+    width: 150px;
+    height: 150px;
+    transform: translate(100vw, 60vh);
+    transition: 50s;
+}
+
+#saturn{
+    background:url(../media/images/saturn.gif);
+    width: 175px;
+    height: 175px;
+    transform: translate(70vw, 50vh);
+    transition: 100s;
+
+}
+
+#anotherplanet{
+    background: url(../media/images/anotherplanet.gif);
+    width: 180px;
+    height: 180px;
+    transform: translate(30vw, 50vh);
+    transition: 45s;
+}
+
+#star{
+    background:url(../media/images/star.gif);
+    width: 50px;
+    height: 50px;
+    transform: translate(10vw, 70vh);
+}
